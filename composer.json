@@ -1,5 +1,5 @@
 {
-    "name": "laravel-enso/users",
+    "name": "cgdsoftware/users",
     "type": "library",
     "license": "MIT",
     "description": "Users dependency for Laravel Enso",
@@ -7,43 +7,43 @@
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Mihai Ocneanu",
             "email": "mihai.ocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Vlad Chiovianu",
             "email": "vlad.chioivanu@earthlink.ro",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "enso-users",
         "vue-bulma",
         "vue-spa"
     ],
-    "homepage": "https://www.laravel-enso.com",
+    "homepage": "https://www.cgdsoftware.com",
     "require": {
-        "laravel-enso/avatars": "^4.0",
-        "laravel-enso/companies": "^4.0",
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/dynamic-methods": "^2.0",
-        "laravel-enso/files": "^5.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/people": "^4.0",
-        "laravel-enso/rememberable": "^3.0",
-        "laravel-enso/roles": "^5.0",
-        "laravel-enso/select": "^4.0",
-        "laravel-enso/tables": "^4.0",
-        "laravel-enso/user-groups": "^2.0"
+        "cgdsoftware/avatars": "^4.0",
+        "cgdsoftware/companies": "^4.0",
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/dynamic-methods": "^2.0",
+        "cgdsoftware/files": "^5.0",
+        "cgdsoftware/forms": "^4.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/people": "^4.0",
+        "cgdsoftware/rememberable": "^3.0",
+        "cgdsoftware/roles": "^5.0",
+        "cgdsoftware/select": "^4.0",
+        "cgdsoftware/tables": "^4.0",
+        "cgdsoftware/user-groups": "^2.0"
     },
     "autoload": {
         "psr-4": {

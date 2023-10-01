@@ -8,6 +8,7 @@ return new class extends Migration
 {
     public function up()
     {
+        if (!Schema::hasTable('users')) {
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
 
@@ -36,6 +37,7 @@ return new class extends Migration
 
             $table->timestamps();
         });
+    }
     }
 
     public function down()

@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('sessions', function (Blueprint $table) {
             $table->string('id')->unique();
 
-            $table->integer('user_id')->nullable();
+            $table->unsignedBigInteger('user_id')->nullable();
 
             $table->string('ip_address', 45)->nullable();
             $table->text('user_agent')->nullable();

@@ -10,26 +10,22 @@ return new class extends Migration
     {
         if (!Schema::hasTable('users')) {
         Schema::create('users', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
-            $table->integer('person_id')->unsigned()->unique();
+            $table->unsignedBigInteger('person_id')->unsigned()->unique();
 
-            $table->integer('group_id')->unsigned()->index();
-            $table->foreign('group_id')->references('id')->on('user_groups');
+            $table->foreignId('group_id')->constrained('user_groups')->index();
 
-            $table->integer('role_id')->unsigned()->index('roles_id');
-            $table->foreign('role_id')->references('id')->on('roles');
+            $table->foreignId('role_id')->constrained()->index();
 
             $table->string('email')->unique();
             $table->string('password')->nullable();
 
             $table->boolean('is_active');
 
-            $table->integer('created_by')->unsigned()->index()->nullable();
-            $table->foreign('created_by')->references('id')->on('users');
+            $table->foreignId('created_by')->nullable()->constrained('users')->index();
 
-            $table->integer('updated_by')->unsigned()->index()->nullable();
-            $table->foreign('updated_by')->references('id')->on('users');
+            $table->foreignId('updated_by')->nullable()->constrained('users')->index();
 
             $table->rememberToken();
 

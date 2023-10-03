@@ -12,7 +12,7 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
 
-            $table->unsignedBigInteger('person_id')->unsigned()->unique();
+            $table->unsignedBigInteger('person_id')->unique();
 
             $table->foreignId('group_id')->constrained('user_groups')->index();
 

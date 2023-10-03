@@ -16,7 +16,7 @@ return new class extends Migration
 
             $table->foreignId('group_id')->constrained('user_groups')->index();
 
-            $table->foreignId('role_id')->constrained()->index();
+            $table->foreignId('role_id')->constrained('roles')->index()->name('users_role_id_foreign');
 
             $table->string('email')->unique();
             $table->string('password')->nullable();

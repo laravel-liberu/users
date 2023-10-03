@@ -16,6 +16,7 @@ return new class extends Migration
 
             $table->foreignId('group_id')->constrained('user_groups')->index();
 
+            //name property is added to prevent duplicate foreign key constraint
             $table->foreignId('role_id')->constrained('roles')->index()->name('users_role_id_foreign');
 
             $table->string('email')->unique();
@@ -23,9 +24,9 @@ return new class extends Migration
 
             $table->boolean('is_active');
 
-            $table->foreignId('created_by')->nullable()->constrained('users')->index();
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('users_created_by_foreign');
 
-            $table->foreignId('updated_by')->nullable()->constrained('users')->index();
+            $table->foreignId('updated_by')->nullable()->constrained('users')->index()->name('users_updated_by_foreign');
 
             $table->rememberToken();
 

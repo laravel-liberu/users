@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Resources;
+namespace LaravelLiberu\Users\Http\Resources;
 
 use Carbon\Carbon;
 use Illuminate\Http\Resources\Json\JsonResource;

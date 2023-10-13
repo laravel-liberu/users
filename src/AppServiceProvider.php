@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Users;
+namespace LaravelLiberu\Users;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {

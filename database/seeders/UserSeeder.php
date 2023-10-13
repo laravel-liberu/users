@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Users\Database\Seeders;
+namespace LaravelLiberu\Users\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\Roles\Models\Role;
-use LaravelEnso\UserGroups\Models\UserGroup;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\Roles\Models\Role;
+use LaravelLiberu\UserGroups\Models\UserGroup;
+use LaravelLiberu\Users\Models\User;
 
 class UserSeeder extends Seeder
 {
@@ -29,7 +29,7 @@ class UserSeeder extends Seeder
         return Person::factory()->create([
             'name'        => 'Admin Root',
             'appellative' => 'Admin',
-            'email'       => 'admin@laravel-enso.com',
+            'email'       => 'admin@liberu.co.uk',
             'birthday'    => '1980-01-19',
             'phone'       => '+40793232522',
         ]);

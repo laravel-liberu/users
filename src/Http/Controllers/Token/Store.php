@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Controllers\Token;
+namespace LaravelLiberu\Users\Http\Controllers\Token;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Users\Http\Requests\ValidateToken;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Http\Requests\ValidateToken;
+use LaravelLiberu\Users\Models\User;
 
 class Store extends Controller
 {

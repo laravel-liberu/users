@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Controllers;
+namespace LaravelLiberu\Users\Http\Controllers;
 
 use Illuminate\Auth\Events\PasswordReset;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Event;
-use LaravelEnso\Users\Http\Requests\ValidateUser;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Http\Requests\ValidateUser;
+use LaravelLiberu\Users\Models\User;
 
 class Update extends Controller
 {

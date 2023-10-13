@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Users\Http\Controllers\Session\Destroy;
-use LaravelEnso\Users\Http\Controllers\Session\Index;
+use LaravelLiberu\Users\Http\Controllers\Session\Destroy;
+use LaravelLiberu\Users\Http\Controllers\Session\Index;
 
 Route::prefix('session')
     ->as('sessions.')

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\Tables\Builders;
+namespace LaravelLiberu\Users\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Tables\Contracts\Table;
-use LaravelEnso\Users\Models\User as Model;
+use LaravelLiberu\Tables\Contracts\Table;
+use LaravelLiberu\Users\Models\User as Model;
 
 class User implements Table
 {

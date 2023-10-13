@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Controllers\Token;
+namespace LaravelLiberu\Users\Http\Controllers\Token;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Users\Forms\Builders\Token;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Forms\Builders\Token;
+use LaravelLiberu\Users\Models\User;
 
 class Create extends Controller
 {

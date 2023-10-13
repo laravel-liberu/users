@@ -47,16 +47,16 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Users\\": "src/",
-            "LaravelEnso\\Users\\Database\\Factories\\": "database/factories/",
-            "LaravelEnso\\Users\\Database\\Seeders\\": "database/seeders/"
+            "LaravelLiberu\\Users\\": "src/",
+            "LaravelLiberu\\Users\\Database\\Factories\\": "database/factories/",
+            "LaravelLiberu\\Users\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Users\\AppServiceProvider",
-                "LaravelEnso\\Users\\AuthServiceProvider"
+                "LaravelLiberu\\Users\\AppServiceProvider",
+                "LaravelLiberu\\Users\\AuthServiceProvider"
             ]
         }
     },

@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Resources;
+namespace LaravelLiberu\Users\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use LaravelEnso\Avatars\Http\Resources\Avatar;
-use LaravelEnso\People\Http\Resources\Person;
-use LaravelEnso\Roles\Http\Resources\Role;
-use LaravelEnso\UserGroups\Http\Resources\Group;
+use LaravelLiberu\Avatars\Http\Resources\Avatar;
+use LaravelLiberu\People\Http\Resources\Person;
+use LaravelLiberu\Roles\Http\Resources\Role;
+use LaravelLiberu\UserGroups\Http\Resources\Group;
 
 class User extends JsonResource
 {

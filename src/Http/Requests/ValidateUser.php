@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Requests;
+namespace LaravelLiberu\Users\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\Password;
-use LaravelEnso\Core\Rules\DistinctPassword;
+use LaravelLiberu\Core\Rules\DistinctPassword;
 
 class ValidateUser extends FormRequest
 {

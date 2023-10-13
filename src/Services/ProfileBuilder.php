@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\Services;
+namespace LaravelLiberu\Users\Services;
 
 use Carbon\Carbon;
-use LaravelEnso\Helpers\Services\Decimals;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Helpers\Services\Decimals;
+use LaravelLiberu\Users\Models\User;
 
 class ProfileBuilder
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Users\Forms\Builders;
+namespace LaravelLiberu\Users\Forms\Builders;
 
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\Users\Models\User;
 
 class Token
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Controllers;
+namespace LaravelLiberu\Users\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Users\Models\User;
-use LaravelEnso\Users\Services\ProfileBuilder;
+use LaravelLiberu\Users\Models\User;
+use LaravelLiberu\Users\Services\ProfileBuilder;
 
 class Show extends Controller
 {

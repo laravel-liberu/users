@@ -1,17 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Users\Http\Controllers\Create;
-use LaravelEnso\Users\Http\Controllers\Destroy;
-use LaravelEnso\Users\Http\Controllers\Edit;
-use LaravelEnso\Users\Http\Controllers\ExportExcel;
-use LaravelEnso\Users\Http\Controllers\InitTable;
-use LaravelEnso\Users\Http\Controllers\Options;
-use LaravelEnso\Users\Http\Controllers\ResetPassword;
-use LaravelEnso\Users\Http\Controllers\Show;
-use LaravelEnso\Users\Http\Controllers\Store;
-use LaravelEnso\Users\Http\Controllers\TableData;
-use LaravelEnso\Users\Http\Controllers\Update;
+use LaravelLiberu\Users\Http\Controllers\Create;
+use LaravelLiberu\Users\Http\Controllers\Destroy;
+use LaravelLiberu\Users\Http\Controllers\Edit;
+use LaravelLiberu\Users\Http\Controllers\ExportExcel;
+use LaravelLiberu\Users\Http\Controllers\InitTable;
+use LaravelLiberu\Users\Http\Controllers\Options;
+use LaravelLiberu\Users\Http\Controllers\ResetPassword;
+use LaravelLiberu\Users\Http\Controllers\Show;
+use LaravelLiberu\Users\Http\Controllers\Store;
+use LaravelLiberu\Users\Http\Controllers\TableData;
+use LaravelLiberu\Users\Http\Controllers\Update;
 
 Route::prefix('users')
     ->as('users.')

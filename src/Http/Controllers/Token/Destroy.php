@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Controllers\Token;
+namespace LaravelLiberu\Users\Http\Controllers\Token;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class Destroy extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\State;
+namespace LaravelLiberu\Users\State;
 
 use Illuminate\Support\Facades\Auth;
-use LaravelEnso\Core\Contracts\ProvidesState;
-use LaravelEnso\Users\Http\Resources\User as Resource;
+use LaravelLiberu\Core\Contracts\ProvidesState;
+use LaravelLiberu\Users\Http\Resources\User as Resource;
 
 class User implements ProvidesState
 {

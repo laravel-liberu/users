@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Users\Models;
+namespace LaravelLiberu\Users\Models;
 
 use Exception;
 use Illuminate\Contracts\Translation\HasLocalePreference;
@@ -11,27 +11,27 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Laravel\Sanctum\HasApiTokens;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Core\Exceptions\UserConflict;
-use LaravelEnso\Core\Models\Login;
-use LaravelEnso\Core\Models\Preference;
-use LaravelEnso\Core\Services\DefaultPreferences;
-use LaravelEnso\Core\Traits\HasPassword;
-use LaravelEnso\DynamicMethods\Traits\Abilities;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Helpers\Contracts\Activatable;
-use LaravelEnso\Helpers\Traits\ActiveState;
-use LaravelEnso\Helpers\Traits\AvoidsDeletionConflicts;
-use LaravelEnso\Helpers\Traits\CascadesMorphMap;
-use LaravelEnso\Helpers\Traits\CascadesObservers;
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\People\Traits\IsPerson;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\Roles\Enums\Roles;
-use LaravelEnso\Roles\Models\Role;
-use LaravelEnso\Tables\Traits\TableCache;
-use LaravelEnso\UserGroups\Enums\UserGroups;
-use LaravelEnso\UserGroups\Models\UserGroup;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Core\Exceptions\UserConflict;
+use LaravelLiberu\Core\Models\Login;
+use LaravelLiberu\Core\Models\Preference;
+use LaravelLiberu\Core\Services\DefaultPreferences;
+use LaravelLiberu\Core\Traits\HasPassword;
+use LaravelLiberu\DynamicMethods\Traits\Abilities;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Helpers\Contracts\Activatable;
+use LaravelLiberu\Helpers\Traits\ActiveState;
+use LaravelLiberu\Helpers\Traits\AvoidsDeletionConflicts;
+use LaravelLiberu\Helpers\Traits\CascadesMorphMap;
+use LaravelLiberu\Helpers\Traits\CascadesObservers;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\People\Traits\IsPerson;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Roles\Enums\Roles;
+use LaravelLiberu\Roles\Models\Role;
+use LaravelLiberu\Tables\Traits\TableCache;
+use LaravelLiberu\UserGroups\Enums\UserGroups;
+use LaravelLiberu\UserGroups\Models\UserGroup;
 use stdClass;
 
 class User extends Authenticatable implements Activatable, HasLocalePreference

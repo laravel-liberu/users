@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users;
+namespace LaravelLiberu\Users;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use LaravelEnso\Users\Models\User;
-use LaravelEnso\Users\Policies\User as Policy;
+use LaravelLiberu\Users\Models\User;
+use LaravelLiberu\Users\Policies\User as Policy;
 
 class AuthServiceProvider extends ServiceProvider
 {

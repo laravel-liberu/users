@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Controllers\Session;
+namespace LaravelLiberu\Users\Http\Controllers\Session;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Users\Http\Resources\Session as Resource;
-use LaravelEnso\Users\Models\Session;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Http\Resources\Session as Resource;
+use LaravelLiberu\Users\Models\Session;
+use LaravelLiberu\Users\Models\User;
 
 class Index extends Controller
 {

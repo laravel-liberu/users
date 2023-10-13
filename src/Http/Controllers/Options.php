@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Users\Http\Controllers;
+namespace LaravelLiberu\Users\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Select\Traits\OptionsBuilder;
-use LaravelEnso\Users\Http\Resources\User as Resource;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Select\Traits\OptionsBuilder;
+use LaravelLiberu\Users\Http\Resources\User as Resource;
+use LaravelLiberu\Users\Models\User;
 
 class Options extends Controller
 {

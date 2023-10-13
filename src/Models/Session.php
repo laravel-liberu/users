@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Users\Models;
+namespace LaravelLiberu\Users\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

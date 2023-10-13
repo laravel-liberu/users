@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\Forms\Builders;
+namespace LaravelLiberu\Users\Forms\Builders;
 
 use Illuminate\Support\Facades\Auth;
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\Users\Models\User as Model;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\Users\Models\User as Model;
 
 class User
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Users\Policies;
+namespace LaravelLiberu\Users\Policies;
 
-use LaravelEnso\Roles\Models\Role;
-use LaravelEnso\UserGroups\Models\UserGroup;
-use LaravelEnso\Users\Models\User as Model;
+use LaravelLiberu\Roles\Models\Role;
+use LaravelLiberu\UserGroups\Models\UserGroup;
+use LaravelLiberu\Users\Models\User as Model;
 
 class User
 {
